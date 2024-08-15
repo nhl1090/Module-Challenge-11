@@ -33,6 +33,16 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://day.js.org/)
 - edX
     - (https://www.edx.org/)
+- Expressjs.com
+    - (https://expressjs.com/en/starter/hello-world.html)
+    - (https://expressjs.com/en/guide/routing.html#response-methods)
+    - (https://expressjs.com/en/guide/routing.html#route-parameters)
+    - (https://expressjs.com/en/starter/static-files.html)
+    - (https://expressjs.com/en/starter/basic-routing.html)
+    - (https://expressjs.com/en/api.html#req.body)
+    - (https://expressjs.com/en/guide/routing.html#express-router)
+    - (https://expressjs.com/en/guide/writing-middleware.html)
+    - (https://expressjs.com/en/4x/api.html)
 - Get Bootstrap
     - (https://getbootstrap.com/)
 - Git-SCM.com
@@ -53,6 +63,8 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
     - (https://github.com/jestjs/jest)
     - (https://github.com/SBoudrias/Inquirer.js)
+    - (https://coding-boot-camp.github.io/full-stack/render/render-deployment-guide)
+    - (https://coding-boot-camp.github.io/full-stack/postgresql/postgresql-installation-guide)
 - GitLab
     - (https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
 - Google
@@ -68,6 +80,12 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://api.jquery.com/)
     - (https://api.jquery.com/category/traversing/)
     - (https://api.jquery.com/category/events/)
+- Insomnia
+    - (https://docs.insomnia.rest/insomnia/get-started)
+    - (https://insomnia.rest/)
+    - (https://insomnia.rest/download)
+    - (https://render.com/)
+    - (https://docs.insomnia.rest/insomnia/install)
 - jQuery User Interface
     - (https://jqueryui.com/)
 - LearnEnough.com
@@ -160,6 +178,8 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)
     - (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+    - (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+    - (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - Microsoft
     - (https://github.com/microsoft/vscode)
 - Mimo
@@ -171,6 +191,7 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://www.npmjs.com/package/inquirer/v/8.2.4)
     - (https://www.npmjs.com/)
     - (https://www.npmjs.com/package/jest?activeTab=code)
+    -(https://www.npmjs.com/package/express)
 - Node
     - (https://node.readthedocs.io/en/latest/api/fs/)
 - Nodejs.org
@@ -179,8 +200,11 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://nodejs.org/api/modules.html#modules_module_exports)
     - (https://nodejs.org/api/modules.html#modules_loading_from_node_modules_folders)
     - (https://nodejs.org/en/)
+    - (https://nodejs.org/api/fs.html#fs_file_system)
 - Open Source Initiative
     - (https://opensource.org/license/MIT)
+- Render
+    -(https://docs.render.com/deploys)
 - Stackoverflow
     - (https://stackoverflow.com/)
 - UT Coding Bootcamp GitLab site
