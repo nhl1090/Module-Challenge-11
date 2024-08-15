@@ -23,5 +23,28 @@ app.get('/api/notes', (req, res) => {
 
 // API route to SAVE a new note
 
+app.post('/api/notes', (req, res) => {
+    const newNote = { id: uuidv4(), ...req.body };
+    
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+      if (err) {
+        return res.status(500).json({ error: 'Failed to read notes data' });
+      }
+      
+      const notes = JSON.parse(data);
+      notes.push(newNote);
+      
+      fs.writeFile('./db/db.json', JSON.stringify(notes), (err) => {
+        if (err) {
+          return res.status(500).json({ error: 'Failed to save note' });
+        }
+        res.json(newNote);
+      });
+    });
+  });
 
 // API route to DELETE a note - BONUS
+
+// Redirect to notes.html
+
+// Redirect to index.html
