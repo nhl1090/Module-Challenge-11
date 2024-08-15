@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 const PORT = 3001
-// an npm package that can give each note a unique ID
+const { v4: uuid } = require('uuid');
 
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
