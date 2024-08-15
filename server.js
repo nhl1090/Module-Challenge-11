@@ -46,5 +46,14 @@ app.post('/api/notes', (req, res) => {
 // API route to DELETE a note - BONUS
 
 // Redirect to notes.html
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/notes.html'));
+  });
 
 // Redirect to index.html
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'));
+  });
+
+  
