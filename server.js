@@ -8,7 +8,6 @@ const { v4: uuid } = require('uuid');
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
 app.use(express.static('public'));
 
 // API route to GET all notes
