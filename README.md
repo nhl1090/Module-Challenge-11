@@ -1,7 +1,6 @@
 # Note Taker
 
 ## Description
-
 This application is a note taker that helps users write and save notes. Each note is saved with a unique id which helps the user seamlessly create, save, and delete notes. It is a great productivity tool for tracking important information.
 
 
@@ -15,10 +14,12 @@ This application is a note taker that helps users write and save notes. Each not
 
 
 ## Installation
-1. Clone the repository using `git clone`
-2. Install dependencies using `npm install`
-3. Run the app using `node server.js`
-4. Test the application by going to `http://localhost:3001` on your browser.
+1. Navigate to the Note Taker app repo https://github.com/nhl1090/Note-Taker
+2. Open bash
+3. enter 'git clone https://github.com/nhl1090/Note-Taker.git' in your terminal
+4. Install dependencies using `npm install`
+5. Run the app using `node server.js`
+6. Test the application by going to `http://localhost:3001` on your browser
 
 ## Usage
 ![Notes Example](./assets/images/Screenshot_of_Notes.png)
