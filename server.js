@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3001
+const PORT = process.env.PORT || 3001;
 
 const { v4: uuid } = require('uuid');
 
@@ -11,6 +11,17 @@ const { v4: uuid } = require('uuid');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
+
+// HTML route for notes.html
+app.get('/notes', (req, res => {
+  res.sendFile(path.join(__dirname, 'public/notes.html'));
+}));
+
+// HTML route for index.html
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/index.html'));
+});
 
 // API route to GET all notes
 app.get('/api/notes', (req, res) => {
@@ -42,19 +53,6 @@ app.post('/api/notes', (req, res) => {
         res.json(newNote);
       });
     });
-  });
-
-// API route to DELETE a note - BONUS
-
-// Redirect to notes.html
-app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/notes.html'));
-  });
-
-// Redirect to index.html
-
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
   });
 
   app.listen(PORT, () => {
