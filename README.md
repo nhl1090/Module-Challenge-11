@@ -14,11 +14,15 @@
 
 
 ## Installation
-
-
+1. Clone the repository using `git clone`
+2. Install dependencies using `npm install`
+3. Run the app using `node server.js`
+4. Test the application by going to `http://localhost:3001` on your browser.
 
 ## Usage
 ![Notes Example](./assets/images/Screenshot_of_Notes.png)
+
+View the deployed application at: [Render App](https://note-taker-7na5.onrender.com/)
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).
