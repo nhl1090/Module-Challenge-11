@@ -13,9 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // HTML route for notes.html
-app.get('/notes', (req, res => {
+app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/notes.html'));
-}));
+});
 
 // HTML route for index.html
 
