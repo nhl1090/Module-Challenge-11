@@ -2,6 +2,7 @@
 
 ## Description
 
+This application is a note taker that helps users write and save notes. Each note is saved with a unique id which helps the user seamlessly create, save, and delete notes. It is a great productivity tool for tracking important information.
 
 
 ## Table of Contents
@@ -226,11 +227,6 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     - (https://en.wikipedia.org/wiki/SVG)
     - (https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
     - (https://en.wikipedia.org/wiki/Test-driven_development)
-
-
-## Tests
-
-
 
 ## Questions
 For any questions, please reach out to me at [nhl1090](https://github.com/nhl1090). Thank you!
