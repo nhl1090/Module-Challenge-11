@@ -18,7 +18,7 @@
 
 
 ## Usage
-
+![Notes Example](./assets/images/Screenshot_of_Notes.png)
 
 ## License
 This project is licensed under the [MIT license](https://opensource.org/license/MIT).
